@@ -19,7 +19,7 @@ services:
         - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
         - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: anancharoensap/strapi-anan:latest
+    image: anancharoensap/strapi-anan:1.0.0
     container_name: my-app-docker
     ports:
         - 1337:1337
